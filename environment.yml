@@ -1,0 +1,19 @@
+name: labor-market-nlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - sqlalchemy
+  - psycopg2-binary
+  - umap-learn
+  - pip:
+      - sentence-transformers
+      - hdbscan
+      - tomli
+      - ipykernel
+
