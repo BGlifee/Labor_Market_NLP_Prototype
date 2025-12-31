@@ -8,21 +8,21 @@ dbname = "labor_db"
 [jobs]
 table_name = "job_postings"
 text_column = "description"
-id_column = "id"
+id_column = "company_id"
 
 [embeddings]
 model_name = "sentence-transformers/all-MiniLM-L6-v2"
 batch_size = 64
-device = "cuda"  # or "cpu"
+device = "cpu"
 
 [clustering]
 n_clusters = 50
 min_cluster_size = 50
 
 [taxonomy]
-onet_path = "data/onet_occupations.csv"
-title_column = "title"
-desc_column = "description"
-code_column = "soc_code"
+onet_path = "../data/onet_occupations.csv"
+title_column = "Title"
+desc_column = "Description"
+code_column = "O*NET-SOC Code"
 top_k = 3
 similarity_threshold = 0.4
