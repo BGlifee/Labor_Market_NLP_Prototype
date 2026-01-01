@@ -1,158 +1,103 @@
-📘 README — Academic + Professional Version
-🔍 Labor Market NLP – Semantic Clustering & O*NET Taxonomy Alignment
+### 🔍 Labor Market NLP – Semantic Clustering & O*NET Alignment
 
-A research-oriented NLP pipeline for analyzing large-scale labor-market data.
+A research-driven NLP pipeline for analyzing labor-market data.
 This project builds a reproducible workflow to:
 
-embed job descriptions into a semantic vector space
+* embed job descriptions into a semantic vector space
+* cluster occupations by linguistic similarity
+* align clusters with **O*NET / SOC taxonomies**
+* evaluate clustering + taxonomy consistency
 
-cluster occupations based on linguistic similarity
+It emphasizes **pipeline design, evaluation rigor, scalability, and reproducibility**, aligning with real-world research expectations.
 
-align resulting clusters with standardized O*NET / SOC occupational taxonomies
+---
 
-evaluate both clustering quality and taxonomy consistency
+### 🎯 Research Motivation
 
-Rather than stopping at a “working prototype,” this project emphasizes pipeline design, evaluation rigor, scalability, and reproducibility — aligning closely with real-world research and applied ML expectations.
-
-🎯 Research Motivation
-
-Modern job postings contain rich but noisy textual signals about occupations, skills, and market structure.
+Modern job postings contain rich but noisy signals about occupations and skills.
 This project explores:
 
-How well semantic embeddings can group occupations meaningfully
+* whether embeddings can meaningfully group occupations
+* how well unsupervised clusters align with official taxonomies
+* how to evaluate systems without labeled ground truth
+* what fails — and how to improve it
 
-Whether unsupervised clusters align with established occupational taxonomies
+This is an **exploratory research pipeline**, not a toy demo.
 
-How to evaluate such systems when no ground truth labels exist
+---
 
-What breaks — and what needs to be improved
+### 🧠 Core Objectives
 
-This is designed less as a toy demo, and more as an exploratory research pipeline.
+This project demonstrates my ability to:
 
-🧠 Core Objectives
+* design clean end-to-end NLP pipelines
+* balance engineering with research thinking
+* critically evaluate unsupervised models
+* maintain extensibility + reproducibility
 
-This project demonstrates how I:
+---
 
-design clean end-to-end NLP pipelines
+### 🧰 Technologies
 
-balance engineering with research thinking
+Python · Sentence-Transformers · Scikit-learn
+NumPy · Pandas · Matplotlib · Seaborn
+PostgreSQL + pgvector (planned)
+Config-driven `src/` architecture
 
-evaluate unsupervised systems critically
+---
 
-maintain extensibility and reproducibility from the start
+### ✨ Key Features
 
-🧰 Technologies & Tools
+✔️ Modular, research-friendly structure
+✔️ Embedding + caching pipeline
+✔️ K-Means baseline (extendable to HDBSCAN/hierarchical)
+✔️ Internal clustering metrics
+✔️ O*NET mapping via cosine similarity
+✔️ Cluster → SOC reporting
+✔️ Quantitative + qualitative evaluation
 
-Python
+---
 
-Sentence-Transformers / SBERT – semantic embeddings
+### 🧬 Methodology
 
-Scikit-learn – clustering & metrics
+1️⃣ Load ~2.4K postings
+2️⃣ Generate SBERT embeddings
+3️⃣ Cluster (K-Means baseline → future HDBSCAN)
+4️⃣ Evaluate: silhouette, Davies–Bouldin
+5️⃣ Map to O*NET (embedding similarity, top-k SOC)
+6️⃣ Validate: metrics + human review
 
-NumPy / Pandas – processing
+---
 
-Matplotlib / Seaborn – visualization
+### 📉 Findings & Limitations
 
-PostgreSQL + pgvector (planned integration) – vector storage
+* Weak cluster separation (low silhouette)
+* Not all clusters align cleanly with taxonomy
+* Mapping confidence varies
 
-MLflow Ready (architecture-wise) – experiment tracking
+These are treated as **research signals** guiding next steps.
 
-Config-driven src/ architecture – maintainability & reproducibility
+---
 
-✨ Main Features
+### 🔧 Planned Improvements
 
-✔️ Clean, modular, research-friendly project structure
-✔️ Embedding generation & caching pipeline
-✔️ K-Means clustering baseline (with extensible design for HDBSCAN, hierarchical, etc.)
-✔️ Internal clustering evaluation
-✔️ O*NET taxonomy alignment via embedding similarity
-✔️ Report generation (cluster → SOC mapping summaries)
-✔️ Qualitative + quantitative evaluation workflow
-✔️ Built with scalability, reproducibility, and collaboration in mind
+🔹 Stronger embeddings
+🔹 Dimensionality reduction
+🔹 HDBSCAN
+🔹 Better taxonomy evaluation
+🔹 pgvector integration
 
-🧬 Methodology (High-Level)
+---
 
-1️⃣ Load & preprocess job postings (~2.4K currently)
-2️⃣ Generate sentence embeddings using SBERT
-3️⃣ Cluster embeddings
+### 🎮 What Users Can Do
 
-Baseline: K-Means
+Generate embeddings · cluster jobs · compute metrics · map to O*NET · inspect clusters · reproduce · extend
 
-Future: HDBSCAN / hierarchical
+---
 
-4️⃣ Compute internal quality metrics
+### 🎓 Why It Matters
 
-Silhouette
+This project shows **research thinking, engineering discipline, evaluation rigor, and initiative** — the qualities expected from an **NLP / ML Engineer / ML Researcher**.
 
-Davies–Bouldin
+---
 
-5️⃣ Map clusters to O*NET
-
-Encode O*NET occupation descriptions
-
-Compare via cosine similarity
-
-Produce top-k SOC candidates per cluster
-
-6️⃣ Interpretation & Validation
-
-Quantitative evaluation ✔️
-
-Human-in-the-loop inspection ✔️
-
-Confidence thresholding & ambiguity awareness ✔️
-
-📉 Current Findings & Limitations
-
-This pipeline revealed valuable insight — including what does NOT work perfectly yet:
-
-Cluster separation is still weak (low silhouette score)
-
-Some clusters do not align cleanly with O*NET taxonomy
-
-Taxonomy mapping confidence varies significantly
-
-Instead of hiding limitations, the project treats them as:
-
-“research signals” — guiding what needs to improve next.
-
-🔧 Planned Improvements
-
-🔹 Explore stronger embedding models
-🔹 Dimensionality reduction experiments
-🔹 HDBSCAN density-based clustering
-🔹 Better taxonomy calibration & evaluation design
-🔹 Integration with pgvector & scalable infra
-
-🎮 What Users Can Do
-
-You can:
-
-generate embeddings reproducibly
-
-cluster job descriptions
-
-compute internal metrics
-
-align clusters to O*NET
-
-inspect cluster meaning & interpretability
-
-reproduce experiments consistently
-
-extend methods easily
-
-🎓 Why This Project Matters
-
-This project is less about “just coding NLP,” and more about:
-
-thinking like a researcher
-
-building like an engineer
-
-validating like a responsible practitioner
-
-It demonstrates:
-
-reliability, maintainability, evaluation discipline, and initiative —
-the same strengths required in NLP / ML Engineer / ML Researcher roles.
