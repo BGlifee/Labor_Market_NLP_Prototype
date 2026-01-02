@@ -22,7 +22,7 @@ This project explores:
 * how to evaluate systems without labeled ground truth
 * what fails — and how to improve it
 
-This is an **exploratory research pipeline**, not a toy demo.
+This is an **exploratory research pipeline**
 
 ---
 
