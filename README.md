@@ -1,4 +1,4 @@
-### 🔍 Labor Market NLP – Semantic Clustering & O*NET Alignment
+###  Labor Market NLP – Semantic Clustering & O*NET Alignment
 
 A research-driven NLP pipeline for analyzing labor-market data.
 This project builds a reproducible workflow to:
@@ -12,7 +12,7 @@ It emphasizes **pipeline design, evaluation rigor, scalability, and reproducibil
 
 ---
 
-### 🎯 Research Motivation
+###  Research Motivation
 
 Modern job postings contain rich but noisy signals about occupations and skills.
 This project explores:
@@ -26,7 +26,7 @@ This is an **exploratory research pipeline**, not a toy demo.
 
 ---
 
-### 🧠 Core Objectives
+###  Core Objectives
 
 This project demonstrates my ability to:
 
@@ -37,7 +37,7 @@ This project demonstrates my ability to:
 
 ---
 
-### 🧰 Technologies
+###  Technologies
 
 Python · Sentence-Transformers · Scikit-learn
 NumPy · Pandas · Matplotlib · Seaborn
@@ -46,7 +46,7 @@ Config-driven `src/` architecture
 
 ---
 
-### ✨ Key Features
+###  Key Features
 
 ✔️ Modular, research-friendly structure
 ✔️ Embedding + caching pipeline
@@ -58,7 +58,7 @@ Config-driven `src/` architecture
 
 ---
 
-### 🧬 Methodology
+###  Methodology
 
 1️⃣ Load ~2.4K postings
 2️⃣ Generate SBERT embeddings
@@ -69,7 +69,7 @@ Config-driven `src/` architecture
 
 ---
 
-### 📉 Findings & Limitations
+###  Findings & Limitations
 
 * Weak cluster separation (low silhouette)
 * Not all clusters align cleanly with taxonomy
@@ -79,7 +79,7 @@ These are treated as **research signals** guiding next steps.
 
 ---
 
-### 🔧 Planned Improvements
+###  Planned Improvements
 
 🔹 Stronger embeddings
 🔹 Dimensionality reduction
@@ -89,13 +89,13 @@ These are treated as **research signals** guiding next steps.
 
 ---
 
-### 🎮 What Users Can Do
+###  What Users Can Do
 
 Generate embeddings · cluster jobs · compute metrics · map to O*NET · inspect clusters · reproduce · extend
 
 ---
 
-### 🎓 Why It Matters
+###  Why It Matters
 
 This project shows **research thinking, engineering discipline, evaluation rigor, and initiative** — the qualities expected from an **NLP / ML Engineer / ML Researcher**.
 
