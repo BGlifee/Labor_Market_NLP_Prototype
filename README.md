@@ -26,17 +26,6 @@ This is an **exploratory research pipeline**
 
 ---
 
-###  Core Objectives
-
-This project demonstrates my ability to:
-
-* design clean end-to-end NLP pipelines
-* balance engineering with research thinking
-* critically evaluate unsupervised models
-* maintain extensibility + reproducibility
-
----
-
 ###  Technologies
 
 Python · Sentence-Transformers · Scikit-learn
@@ -58,17 +47,6 @@ Config-driven `src/` architecture
 
 ---
 
-###  Methodology
-
-1️⃣ Load ~2.4K postings
-2️⃣ Generate SBERT embeddings
-3️⃣ Cluster (K-Means baseline → future HDBSCAN)
-4️⃣ Evaluate: silhouette, Davies–Bouldin
-5️⃣ Map to O*NET (embedding similarity, top-k SOC)
-6️⃣ Validate: metrics + human review
-
----
-
 ###  Findings & Limitations
 
 * Weak cluster separation (low silhouette)
@@ -86,18 +64,6 @@ These are treated as **research signals** guiding next steps.
 🔹 HDBSCAN
 🔹 Better taxonomy evaluation
 🔹 pgvector integration
-
----
-
-###  What Users Can Do
-
-Generate embeddings · cluster jobs · compute metrics · map to O*NET · inspect clusters · reproduce · extend
-
----
-
-###  Why It Matters
-
-This project shows **research thinking, engineering discipline, evaluation rigor, and initiative** — the qualities expected from an **NLP / ML Engineer / ML Researcher**.
 
 ---
 
