@@ -40,3 +40,5 @@ logs/
 *.env
 .env.*
 
+config.toml
+.env
