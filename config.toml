@@ -16,8 +16,8 @@ batch_size = 64
 device = "cpu"
 
 [clustering]
-n_clusters = 50
-min_cluster_size = 50
+n_clusters = 100
+min_cluster_size = 100
 
 [taxonomy]
 onet_path = "../data/onet_occupations.csv"
