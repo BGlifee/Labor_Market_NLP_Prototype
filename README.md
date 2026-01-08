@@ -8,8 +8,6 @@ This project builds a reproducible workflow to:
 * align clusters with **O*NET / SOC taxonomies**
 * evaluate clustering + taxonomy consistency
 
-It emphasizes **pipeline design, evaluation rigor, scalability, and reproducibility**, aligning with real-world research expectations.
-
 ---
 
 ###  Research Motivation
@@ -21,8 +19,6 @@ This project explores:
 * how well unsupervised clusters align with official taxonomies
 * how to evaluate systems without labeled ground truth
 * what fails — and how to improve it
-
-This is an **exploratory research pipeline**
 
 ---
 
@@ -52,8 +48,6 @@ Config-driven `src/` architecture
 * Weak cluster separation (low silhouette)
 * Not all clusters align cleanly with taxonomy
 * Mapping confidence varies
-
-These are treated as **research signals** guiding next steps.
 
 ---
 
