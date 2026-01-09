@@ -75,6 +75,3 @@ As with all semantic systems, performance depends on:
 * Taxonomy coverage
 
 To support reliable usage, the system produces **similarity scores and validation outputs**.
-
-
-지금 네 포트폴리오 수준에 딱 맞아.
