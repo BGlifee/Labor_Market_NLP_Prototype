@@ -1,3 +1,5 @@
+![Dashboard Preview](assets/ChatGPT Image Jan 9, 2026, 07_53_29 PM.png)
+
 # **NLP Job Segmentation & Taxonomy Mapping System**
 
 This project implements an **AI-driven text segmentation and classification system** designed to organize large volumes of job descriptions into meaningful occupational categories using **semantic similarity and taxonomy alignment**.
