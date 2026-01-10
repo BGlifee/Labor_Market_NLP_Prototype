@@ -1,4 +1,4 @@
-![Dashboard Preview](assets/ChatGPT Image Jan 9, 2026, 07_53_29 PM.png)
+![Dashboard Preview](assets/dashboard.png)
 
 # **NLP Job Segmentation & Taxonomy Mapping System**
 
