@@ -39,6 +39,5 @@ logs/
 # Credentials (if any)
 *.env
 .env.*
-
 config.toml
 .env
