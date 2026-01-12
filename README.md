@@ -1,4 +1,4 @@
-![Dashboard Preview](assets/dashboard.png)
+![Dashboard Preview](assets/Explainable Job classification Dashboard.mp4)
 
 # **NLP Job Segmentation & Taxonomy Mapping System**
 
