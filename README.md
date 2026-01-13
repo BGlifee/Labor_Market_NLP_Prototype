@@ -1,6 +1,7 @@
-## 🎥 Demo — Explainable Job Classification Dashboard
+<p align="center">
+  <img src="assets/dashboard_demo.gif" width="900">
+</p>
 
-https://raw.githubusercontent.com/BGlifee/Labor_Market_NLP_Prototype/main/assets/Explainable_Job_classification_Dashboard.mp4
 
 
 # **NLP Job Segmentation & Taxonomy Mapping System**
