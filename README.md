@@ -1,5 +1,3 @@
-![Dashboard Preview](assets/Explainable Job classification Dashboard.mp4)
-
 # **NLP Job Segmentation & Taxonomy Mapping System**
 
 This project implements an **AI-driven text segmentation and classification system** designed to organize large volumes of job descriptions into meaningful occupational categories using **semantic similarity and taxonomy alignment**.
