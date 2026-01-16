@@ -74,10 +74,4 @@ The same architecture can be reused for:
 
 ## **Validation & Limitations**
 
-As with all semantic systems, performance depends on:
-
-* Input text quality
-* Domain-specific language
-* Taxonomy coverage
-
-To support reliable usage, the system produces **similarity scores and validation outputs**.
+Our embedding-based clustering grouped together not only traditional accounting firms, but also accounting SaaS, CFO advisory firms, and accounting staffing agencies, reflecting the full labor-market ecosystem around the Accountants & Auditors occupation.
